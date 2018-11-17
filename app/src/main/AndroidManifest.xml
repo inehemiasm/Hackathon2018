@@ -19,7 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DonateActivity"></activity>
+        <activity android:name=".DonateActivity" />
+        <activity android:name=".companies_to_donate" />
+        <activity android:name=".ThankYouActivity"></activity>
     </application>
 
 </manifest>

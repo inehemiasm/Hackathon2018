@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/red_cross"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/red_cross_logo"
+            android:gravity="center"
+            android:onClick="donate_to_red_cross"
+            android:text="redCross" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email_input_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/america_res"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/americares"
+            android:gravity="center"
+            android:onClick="donate_to_americares"
+            android:text="americares" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/fema"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/fema_logo"
+            android:gravity="center"
+            android:onClick="donate_to_red_fema"
+            android:text="redCross" />
+    </LinearLayout>
+
+</LinearLayout>

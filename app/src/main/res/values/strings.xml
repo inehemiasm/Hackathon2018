@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">hackhathon2018</string>
     <string name="action_settings">Settings</string>
+    <string name="image_picker">image_picker</string>
+
+
+    <string-array name="companies_to_donate">
+        <item>Red Cross</item>
+        <item>Americares</item>
+        <item>Fema</item>
+
+    </string-array>
 </resources>
