@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/fire_dept_find"
+        android:layout_width="174dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="find_fire_dept"
+        android:text="Nearest Fire Dept" />
+
+    <Button
+        android:id="@+id/call_police"
+        android:layout_width="174dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="48dp"
+        android:text="Call 911" />
+
+    <Button
+        android:id="@+id/contact_family"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:onClick="send_message"
+        android:text="Emergency Contact" />
+</LinearLayout>
